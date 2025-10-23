@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: #d8d8d8;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.container{
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px , rgba(0, 0 , 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadiIn{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1{
+    color: #333;
+}
+
+input{
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    width: 200px;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #4caf50;
+    transition: background-color 1.5s ease;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+p{
+    margin-top:20px;
+    font-size: 18px;
+}
